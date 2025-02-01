@@ -1,0 +1,9 @@
+.container {
+  height: 80vh;
+  width: 35%;
+}
+
+.list-group {
+  max-height: 60vh;
+  overflow-y: auto;
+}
