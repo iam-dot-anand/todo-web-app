@@ -70,7 +70,7 @@ function Todo() {
   };
 
   return (
-    <div className="container mt-5 fst-italic">
+    <div className="container my-5 fst-italic">
       <div className="text-center">
         <h1 className="mb-4  text-black-50">to-do list</h1>
         <form className="input-group mb-3" onSubmit={handleSubmit}>

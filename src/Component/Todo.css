@@ -1,9 +1,34 @@
+/* Default Styles (Desktop) */
 .container {
   height: 80vh;
   width: 35%;
+  margin: auto;
 }
 
 .list-group {
   max-height: 60vh;
   overflow-y: auto;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+
+/* Mobile view (up to 768px width) */
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+  input.form-control {
+    width: 100%;
+    margin-bottom: 0.5rem;
+    border-radius: 5px !important;
+  }
+
+  .btn-success {
+    width: 100%;
+    margin-top: 0.5rem;
+    border-radius: 5px !important;
+  }
 }
