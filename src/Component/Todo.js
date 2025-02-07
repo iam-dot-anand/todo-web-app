@@ -40,7 +40,7 @@ function Todo() {
       setEdit(false);
     } else {
       const newTodo = { name: inputVal, id: uuidv4(), checked: false };
-      setTodo((prevState) => [...prevState, newTodo]);
+      setTodo((prevState) => [newTodo,...prevState]);
     }
     setInputVal("");
   };
